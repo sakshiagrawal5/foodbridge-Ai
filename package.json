@@ -1,0 +1,28 @@
+{
+  "name": "foodbridge-ai-root",
+  "version": "1.0.0",
+  "description": "FoodBridgeAI — Smart Surplus Food Rescue & Intelligent NGO Matching Platform",
+  "private": true,
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "start": "node scripts/dev.mjs",
+    "dev:server": "npm --prefix server start",
+    "dev:client": "npm --prefix client run dev",
+    "seed": "npm --prefix server run seed",
+    "test": "npm --prefix server test",
+    "build:client": "npm --prefix client run build",
+    "build": "npm --prefix client run build"
+  },
+  "keywords": [
+    "food-rescue",
+    "surplus-food",
+    "ngo-matching",
+    "social-impact",
+    "ai"
+  ],
+  "author": "FoodBridgeAI Team",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^10.0.6"
+  }
+}
